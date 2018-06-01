@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .thumbnail1 {
+    width: 200px; 
+    padding: 0px 0;
+    position: relative; 
+    overflow: hidden; 
+    }
+
+  .thumbnail1 > .wrap {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    transform: scale(1); 
+    transition: transform 0.2s ease-in-out; z-index: -1; 
+    }
+
+  .thumbnail1 { 
+    transition: all 0.1s ease-in-out; 
+    }
+
+  .thumbnail1:hover {
+    transform: scale(1.05); 
+    margin: -25px 0px 30px 50px;
+    }
+
+
+  body{
+        background:url("https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?auto=compress&cs=tinysrgb&h=350");
+        background-size:cover;
+    
+  }
+
+  .mytext{
+    font-size: 18pt;
+    margin-left: 40px;
+  }
+  .titles{
+    color:white;
+    text-align:center;
+  }
+  /*.logo{
+    width:90%;
+    size:50%;
+    flex: 10%;
+    float: left;
+    flex-direction: row;
+    display: flex;
+  }*/
+
+  .item img{
+    width:1000px;
+  }
+  .modal  img{
+    width:100%
+  }
+
+  .logo{
+    width: 20vw;
+    padding: 0px 5vw;
+  }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Different Foods From different Culture</h1> 
+        <p>"Hard Work Should Be Rewarded By Good Food!"</p> 
+      </div>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="./index.html">Home</a></li>
+              <li><a href="Project_Quiz2.html">Quiz</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-md-12">
+            <h1 class="titles"></img>
+            <a href='./SK.html'>
+              <img class="thumbnail1" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png"> </img>
+            </a>
+
+            <a href='./DR.html'>
+             <img class="thumbnail1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/255px-Flag_of_the_Dominican_Republic.svg.png">
+            </a>
+
+            <a href='./RO.html'>
+               <img class="thumbnail1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/255px-Flag_of_Romania.svg.png">
+            </a>
+            
+        </div>
+      </div>
+      
+    
+
+</body>
+</html>
